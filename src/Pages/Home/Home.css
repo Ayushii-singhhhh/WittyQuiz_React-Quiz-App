@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.settings {
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Add this here */
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  gap: 20px; /* Adds spacing between inputs */
+  align-items: center; /* Optional: centers inputs horizontally */
+}
+
+.banner {
+  width: 40%;
+  align-self: center;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .banner {
+    width: 60%;
+    padding-top: 20px;
+  }
+
+  .settings {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

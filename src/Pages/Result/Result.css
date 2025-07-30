@@ -1,0 +1,38 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f0f4f8; /* soft light blue background */
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.result-chart {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  width: 80%;
+  max-width: 700px;
+}
+
+.result button {
+  margin: 10px;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+

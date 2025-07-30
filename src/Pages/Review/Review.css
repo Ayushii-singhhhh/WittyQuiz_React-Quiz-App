@@ -1,0 +1,22 @@
+.review {
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8faff;
+  min-height: 100vh;
+}
+
+.review h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.review-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
